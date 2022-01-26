@@ -1,0 +1,22 @@
+*{
+    background-color: #b237eb;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Staatliches', cursive;
+    color: white;
+    font-size: 200px;
+    display: flex;
+  
+}
+
+h2{
+    font-family: 'Staatliches', cursive;
+    color: rgb(23, 200, 206);
+    font-size: 100px;
+   display: block;
+   margin-top: 150px;
+}
