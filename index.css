@@ -1,22 +1,45 @@
 *{
-    background-color: #b237eb;
-    display: flex;
+    background-color: #f8f4f2;
+} 
+/* f8f4f2 */
+
+#section-one{
     margin: 0 auto;
-    text-align: center;
+    padding: 0;
+    position: relative;
+   
 }
 
 h1{
     font-family: 'Staatliches', cursive;
-    color: white;
+    color: #b237eb;
     font-size: 200px;
-    display: flex;
+   text-align: center;
+   margin-bottom: 0px;
   
+}
+
+#section-oneA{
+    display: inline-block;
+    justify-content: center;
 }
 
 h2{
     font-family: 'Staatliches', cursive;
-    color: rgb(23, 200, 206);
-    font-size: 100px;
-   display: block;
-   margin-top: 150px;
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 0px;
+    display: inline-block;
+} 
+
+#learn-more{
+    /* padding: 2px; */
+    color: white;
+    font-family: 'Staatliches', cursive;
+    font-size: 10px;
+    background-color: black;
+   
+  
+    
 }
