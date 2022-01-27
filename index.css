@@ -1,5 +1,6 @@
-*{
-    background-color: #f8f4f2;
+body{
+    /* background-color: #f8f4f2; */
+    background-image: linear-gradient(to bottom, #405166 0%,#656f6f 100%)
     /* background-image: linear-gradient(
 135deg
 ,#e1d2e9,#b237eb); */
@@ -8,18 +9,23 @@
 
 h1{
     font-family: 'Staatliches', cursive;
-    color: #b237eb;
-    font-size: 200px;
+    /* color: #b237eb; */
+    color: #e55643;
+    font-size: 150px;
    text-align: center;
-   margin-bottom: 0px;
+   margin-bottom: 50px;
+   text-shadow: 3px 8px #533d4a;
+   /* line-height: 47px;
+   letter-spacing: 2px; */
   
 }
 
 
 h2{
     font-family: 'Staatliches', cursive;
-    color: black;
-    font-size: 50px;
+    color: #2b9f5e;
+    text-shadow: 3px 8px #533d4a;
+    font-size: 70px;
     text-align: center;
     margin-top: 0px;
     
@@ -29,64 +35,86 @@ h2{
     /* margin: 0 auto; */
     display: flex;
     justify-content: center;
-    margin-top: 200px;
+    margin-top: 50px;
 }
 
 #btn{
     padding: 10px 20px;
     color: black;
     font-family: 'Staatliches', cursive;
-    font-size: 20px;
-    background-color: #f8f4f2;
-    border: 1px solid black;
+    font-size: 30px;
+    /* background-color: #f8f4f2; */
+    border: px solid black;
     margin: 20px;
     
 }
 
 #btn:hover{
-    background-color: #b237eb;
-    color: white;
+    /* background-color: #f1c83c; */
+    color: #f1c83c;
 }
 
 #section-two{
-    margin-top: 600px;
-    background-color: #e1d2e9;
+    margin-top: 300px;
+    /* background-color: #e1d2e9; */
     height: 50vh;
     width: 100%;
     overflow: auto;
+    margin-bottom: 50px;
+    border: 3px solid black;
+   
 }
 
 #about-info{
     display: flex;
     justify-content: center;
-    background-color: #e1d2e9;
-    width: auto;
-    
+    /* background-color: #e1d2e9; */
+    /* width: auto; */
+    padding-top:10px;
+    padding-bottom: 10px;
+   
 }
 img{
     border-radius: 50%;
     margin-right: 200px;
      height: 200px;
-   width: auto; 
+   /* width: auto;  */
     
 }
 
 #about-me{
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 20px;
-    margin-top: 50px;
+    margin-top: 5px;
    margin-left: 150px;
-   background-color: #e1d2e9;
    width: auto;
    overflow: hidden;
+   /* margin-bottom: 200px; */
 }
 
 
 #section-three{
-    /* margin-top: 500px; */
+    /* margin-top: 300px; */
+    /* border: 3px solid black; */
+    
+    
 }
+
+#table-skills{
+   text-align: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 30px;
+    color: #f1c83c;
+    column-count: 4px;
+    
+}
+
+/* p:hover{
+    color: #2b9f5e;
+} */
+
 
 
 #section-four{
-    margin-top: 600px;
+    /* margin-top: 600px; */
 }
